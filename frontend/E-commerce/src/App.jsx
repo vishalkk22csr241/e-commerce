@@ -1,16 +1,16 @@
-import ProductPage from "./product"
+import AdminPage from "./adminpage"
 import Login from "./login"
 
 function App() {
   return (
     <>
-      <h1>Hello hi how are you...</h1>
+      <h1> </h1>
       <Login>
       thi is a  login page
       </Login>
-      <ProductPage>
-        product
-      </ProductPage>
+      <AdminPage>
+adminpage
+      </AdminPage>
     </>
   )
 }

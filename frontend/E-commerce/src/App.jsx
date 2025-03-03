@@ -1,4 +1,5 @@
 import AdminPage from "./adminpage"
+import CustomerPage from "./customerpage"
 import Login from "./login"
 
 function App() {
@@ -9,8 +10,11 @@ function App() {
       thi is a  login page
       </Login>
       <AdminPage>
-adminpage
+        admin
       </AdminPage>
+      <CustomerPage>
+        customer
+      </CustomerPage>
     </>
   )
 }

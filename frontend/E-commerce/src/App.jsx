@@ -15,6 +15,9 @@ function App() {
       <CustomerPage>
         customer
       </CustomerPage>
+      <Login>
+        Login
+      </Login>
     </>
   )
 }

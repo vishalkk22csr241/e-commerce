@@ -1,5 +1,6 @@
 import { useState } from "react";
 import axios from "axios";
+import { Link } from "react-router-dom";
 
 const Login = () => {
   const [email, setEmail] = useState("");
@@ -49,7 +50,25 @@ const Login = () => {
               required
             />
           </div>
-          <button type="submit" className="w-full bg-blue-500 text-white p-2 rounded">Login</button>
+          <button
+            type="submit"
+            className="w-full bg-blue-500 text-white p-2 rounded mb-4"
+          >
+            Login
+          </button>
+          <div className="text-center">
+            <p className="text-gray-600 text-sm">
+              Do not have an account?{" "}
+              <Link to="/signup" className="text-blue-500 font-medium">
+                Sign Up
+              </Link>
+            </p>
+            <p className="text-gray-600 text-sm mt-2">
+              <Link to="/forgot-password" className="text-blue-500 font-medium">
+                Forgot Password?
+              </Link>
+            </p>
+          </div>
         </form>
       </div>
     </div>
